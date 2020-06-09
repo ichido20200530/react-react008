@@ -45,7 +45,7 @@ export default class App extends Component {
 
 class Message extends Component {
   li = {
-    fontSize: "16pt",
+    fontSize: "32pt",
     color: "#06",
     margin: "0px",
     padding: "0px",
