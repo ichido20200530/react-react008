@@ -17,18 +17,10 @@ export default class App extends Component {
       message: 'type your name:'
     };
     this.doChange = this.doChange.bind(this);
-    this.doSubmit = this.doSubmit.bind(this);
   }
 
   doChange(event) {
     this.input = event.target.value;
-  }
-
-  doSubmit(event) {
-    this.setState({
-      message: 'Hello, ' + this.input + '!!'
-    });
-    event.preventDefault();
   }
 
   render() {
